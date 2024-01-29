@@ -1,0 +1,161 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "employee": [
+    {
+      "employeeName": "Rahul",
+      "dateOfBirth": "2003-02-13T18:30:00.000Z",
+      "contactNumber": 7448949278,
+      "Address": "irugur",
+      "id": 8
+    },
+    {
+      "employeeName": "emp9",
+      "dateOfBirth": "2006-10-20T18:30:00.000Z",
+      "contactNumber": 7123654789,
+      "Address": "chennai",
+      "id": 9
+    },
+    {
+      "employeeName": "emp10",
+      "dateOfBirth": "1990-05-24T18:30:00.000Z",
+      "contactNumber": 9541254789,
+      "Address": "andhra",
+      "id": 10
+    },
+    {
+      "employeeName": "emp11",
+      "dateOfBirth": "2020-06-18T18:30:00.000Z",
+      "contactNumber": 7412365478,
+      "Address": "jammun",
+      "id": 11
+    },
+    {
+      "employeeName": "emp12",
+      "dateOfBirth": "2010-07-28T18:30:00.000Z",
+      "contactNumber": 8213698745,
+      "Address": "gujarath",
+      "id": 12
+    },
+    {
+      "employeeName": "emp13",
+      "dateOfBirth": "1974-06-18T18:30:00.000Z",
+      "contactNumber": 6123654789,
+      "Address": "maharastra",
+      "id": 13
+    },
+    {
+      "employeeName": "emp14",
+      "dateOfBirth": "1970-11-25T18:30:00.000Z",
+      "contactNumber": 9658231456,
+      "Address": "odissa",
+      "id": 14
+    },
+    {
+      "employeeName": "emp15",
+      "dateOfBirth": "1979-03-05T18:30:00.000Z",
+      "contactNumber": 6321457896,
+      "Address": "nepal",
+      "id": 15
+    },
+    {
+      "employeeName": "emp17",
+      "dateOfBirth": "2009-02-03T18:30:00.000Z",
+      "contactNumber": 65214521458,
+      "Address": "kerala",
+      "id": 17
+    },
+    {
+      "employeeName": "emp18",
+      "dateOfBirth": "1983-05-23T18:30:00.000Z",
+      "contactNumber": 9321457841,
+      "Address": "conoor",
+      "id": 18
+    },
+    {
+      "employeeName": "emp19",
+      "dateOfBirth": "1988-11-22T18:30:00.000Z",
+      "contactNumber": 7412365478,
+      "Address": "yearcaud",
+      "id": 19
+    },
+    {
+      "employeeName": "emp20",
+      "dateOfBirth": "2016-07-27T18:30:00.000Z",
+      "contactNumber": 9363524174,
+      "Address": "palani",
+      "id": 20
+    },
+    {
+      "employeeName": "emp21",
+      "dateOfBirth": "2016-10-19T18:30:00.000Z",
+      "contactNumber": 8521456321,
+      "Address": "pollachi",
+      "id": 21
+    },
+    {
+      "employeeName": "emp22",
+      "dateOfBirth": "1994-07-13T18:30:00.000Z",
+      "contactNumber": 9685741232,
+      "Address": "kochi",
+      "id": 22
+    },
+    {
+      "employeeName": "emp23",
+      "dateOfBirth": "2018-09-09T18:30:00.000Z",
+      "contactNumber": 92145622414,
+      "Address": "madurai",
+      "id": 23
+    },
+    {
+      "employeeName": "emp24",
+      "dateOfBirth": "1971-11-10T18:30:00.000Z",
+      "contactNumber": 6541254125,
+      "Address": "ramnad",
+      "id": 24
+    },
+    {
+      "employeeName": "emp27",
+      "dateOfBirth": "2017-02-06T18:30:00.000Z",
+      "contactNumber": 6214253658,
+      "Address": "vadavalli",
+      "id": 29
+    },
+    {
+      "employeeName": "EMP28",
+      "dateOfBirth": "2002-07-17T18:30:00.000Z",
+      "contactNumber": 7523654125,
+      "Address": "rs puram",
+      "id": 30
+    },
+    {
+      "employeeName": "emp7",
+      "dateOfBirth": "1998-11-11T18:30:00.000Z",
+      "contactNumber": 69587415698,
+      "Address": "tirchy",
+      "id": 31
+    },
+    {
+      "employeeName": "emp8",
+      "dateOfBirth": "1998-11-11T18:30:00.000Z",
+      "contactNumber": 69587415698,
+      "Address": "tirchy",
+      "id": 32
+    }
+  ]
+}
