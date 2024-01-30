@@ -30,7 +30,8 @@ constructor(private _fb:FormBuilder,private _empService:EmployeeService,private 
       dateOfBirth:this._fb.control('',Validators.required),
       contactNumber:this._fb.control('',[Validators.required,Validators.pattern("[0-9 ]{10}")]),
       Address:this._fb.control('',Validators.required),
-      details:this._fb.control('',Validators.required)
+      details:this._fb.control('',Validators.required),
+     // filesupload:this._fb.control('')
       // employeeName:'',
       // dateOfBirth:'',
       // contactNumber:'',

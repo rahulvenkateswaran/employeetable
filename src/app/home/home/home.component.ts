@@ -2,7 +2,7 @@
 import { EmployeeService } from '../../services/employee.service';
 import { HomeModule } from '../home.module';
 import { EmpAddComponent } from '../emp-add/emp-add.component';
-import { Component,OnInit,ViewChild} from '@angular/core';
+import { Component,Input,OnInit,ViewChild} from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 //import { EmpAddComponent } from './emp-add/emp-add.component';
 //import { EmployeeService } from './services/employee.service';
@@ -19,6 +19,8 @@ import { HomeRoutingModule } from '../homerouting.module';
 import { CoreService } from '../../core/core.service';
 import { LoginComponent } from '../../login/login.component';
 import { InfoComponent } from '../../info/info.component';
+import { HttpClient } from '@angular/common/http';
+import { finalize } from 'rxjs';
 console.log('home component loaded')
 @Component({
   selector: 'app-home',
@@ -29,16 +31,21 @@ export class HomeComponent implements OnInit {
   title='employeeTable'
 
 
-  displayedColumns: string[] = ['employeeName', 'dateOfBirth', 'contactNumber', 'Address','action','details'];
+
+  filename=''
+
+
+  displayedColumns: string[] = ['employeeName', 'dateOfBirth', 'contactNumber', 'Address','action','details','filesupload'];
   dataSource!: MatTableDataSource<any>;
 
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort
+fileupload: any;
 
   //  messagedata:any=''
 
 
-  constructor(private _dialog: MatDialog,private _empService:EmployeeService,private _coreservice:CoreService){}
+  constructor(private _dialog: MatDialog,private _empService:EmployeeService,private _coreservice:CoreService,private _http:HttpClient){}
   ngOnInit(): void {
     this.getEmployeeList()
   }
@@ -133,6 +140,10 @@ this.getEmployeeList()
         data:data
       })
     }
+
+
+
+
 
 
 
